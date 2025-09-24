@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login page not loading",
+    "description": "Customer reports that the login page shows a blank screen on the Safari browser. They mentioned that clearing cache and cookies did not help, and the issue persists even after updating the browser to the latest version.",
+    "customer": "Alice Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-20T10:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Unable to reset password",
+    "description": "Password reset email is not sent after the user clicks on 'Forgot Password'. They have attempted multiple times using different devices and email clients but never receive the reset link in their inbox or spam folder.",
+    "customer": "Brian Smith",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-18T09:05:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Mobile app crash on launch",
+    "description": "Android app crashes on the splash screen for version 2.3.1. Several customers have reinstalled the app, cleared data, and restarted their devices, but the crash occurs immediately after opening the application.",
+    "customer": "Clara Green",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-19T14:40:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Slow checkout process",
+    "description": "Checkout page takes more than 20 seconds to load payment options, causing frustration and abandoned carts. Customers on both mobile and desktop have experienced long wait times even with strong internet connections.",
+    "customer": "David Lee",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-21T12:00:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Broken link in FAQ page",
+    "description": "The link to the refund policy returns a 404 error. Users navigating from the FAQ cannot access important refund details, which is creating confusion and repeated inquiries to the support team.",
+    "customer": "Ella Brown",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-22T08:30:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Order history missing",
+    "description": "Customer cannot view past orders on their profile page. After logging in, the order history section remains empty despite confirmed purchases shown in email receipts and payment records.",
+    "customer": "Frank Miller",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-18T15:10:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Payment declined incorrectly",
+    "description": "Valid credit cards are being declined during checkout. Multiple users confirmed that their cards work on other websites, and they have sufficient balance, suggesting a possible gateway issue on our side.",
+    "customer": "Grace Kim",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-19T11:45:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Email notifications delayed",
+    "description": "Order confirmation emails take several hours to arrive. Customers worry that their orders were not processed because they do not receive any immediate confirmation or tracking details.",
+    "customer": "Henry Wilson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-17T18:25:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Profile picture upload fails",
+    "description": "Users receive a network error when uploading a new profile picture. The upload bar freezes halfway and eventually displays an unexpected server error message despite stable internet connections.",
+    "customer": "Isabella Carter",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-20T16:55:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Search function not returning results",
+    "description": "Search bar shows 'no results' even for existing products. Customers report typing exact product names and SKU numbers but still receive empty results, making it difficult to find items.",
+    "customer": "Jack Thompson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-21T13:20:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Cart items disappear",
+    "description": "Items in the cart are removed after refreshing the page. Customers add products, but after a page reload or session timeout, the cart empties completely without any warning or error message.",
+    "customer": "Karen Davis",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-22T10:40:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Live chat not connecting",
+    "description": "Support live chat stays on 'connecting' and never opens. Users have attempted to start conversations during business hours but remain stuck at the loading spinner indefinitely.",
+    "customer": "Leo Parker",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-19T20:15:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Invoice PDF not downloading",
+    "description": "Clicking the 'Download Invoice' button returns a server error. Customers need invoices for accounting and tax purposes, and repeated attempts result in the same error message.",
+    "customer": "Maya Patel",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-23T09:10:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Two-factor authentication issue",
+    "description": "Customers cannot receive SMS codes during two-factor login. They are unable to access their accounts because the security code never arrives, even after multiple requests.",
+    "customer": "Nate Brooks",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-23T11:25:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Subscription renewal failed",
+    "description": "Automatic renewal failed for several premium users despite valid payment methods. Customers received expiration notices even though their cards are active and have sufficient funds.",
+    "customer": "Olivia Sanders",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-24T07:45:00Z"
+  }
+]
