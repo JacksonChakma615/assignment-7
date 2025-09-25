@@ -1,5 +1,4 @@
 
-
 1.What is JSX, and why is it used?
 Ans:
 JSX = হলো JavaScript XML।  
