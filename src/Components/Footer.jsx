@@ -60,6 +60,9 @@ const Footer = () => {
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
         © 2025 CS — Ticket System. All rights reserved.
       </div>
+      <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
+        © 2025 CS — Ticket System. All rights reserved.
+      </div>
     </footer>
   );
 };

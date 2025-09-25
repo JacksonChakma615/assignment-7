@@ -1,11 +1,12 @@
 import "./App.css";
 import { useEffect, useState } from "react";
-import Tickets  from "./assets/Components/Tickets";
-import Footer from "./assets/Components/Footer";
-import Nav from "./assets/Components/Nav";
-import Progress from "./assets/Components/Progress";
-import ResolvedTask from "./assets/Components/ResolvedTask";
-import TaskStatus from "./assets/Components/TaskStatus";
+import Tickets from "./Components/Tickets";
+import Footer from "./Components/Footer";
+import Nav from "./Components/Nav";
+import Progress from "./Components/Progress";
+import ResolvedTask from "./Components/ResolvedTask";
+import TaskStatus from "./Components/TaskStatus";
+import { toast, ToastContainer } from "react-toastify";
 
 function App() {
   const [tickets, setTickets] = useState([]);
@@ -30,7 +31,34 @@ function App() {
     if (ticket) {
       setInProgress(inProgress.filter((t) => t.id !== ticketId));
       setResolved([...resolved, ticket]);
+      setTickets(tickets.filter((t) => t.id !== ticketId));
     }
+  };
+
+  // react tostify
+  const notify = () => {
+    toast.success("In Progress", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
+  };
+  const notify2 = () => {
+    toast.success("Completed!", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   };
 
   return (
@@ -40,18 +68,26 @@ function App() {
         <Progress inProgress={inProgress} resolved={resolved} />
         <div className="md:grid grid-cols-12">
           <div className="col-span-9">
-            <Tickets  tickets={tickets} addToProgress={addToProgress} />
+            <Tickets
+              notify={notify}
+              tickets={tickets}
+              addToProgress={addToProgress}
+            />
           </div>
 
           <div className="col-span-3 mt-20 space-y-6">
-            <TaskStatus tasks={inProgress} markAsResolved={markAsResolved} />
+            <TaskStatus
+              notify2={notify2}
+              tasks={inProgress}
+              markAsResolved={markAsResolved}
+            />
 
-  
             <ResolvedTask tasks={resolved} />
           </div>
         </div>
       </div>
       <Footer />
+      <ToastContainer />
     </>
   );
 }

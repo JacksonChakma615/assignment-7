@@ -1,4 +1,4 @@
-const TaskStatus = ({ tasks, markAsResolved }) => {
+const TaskStatus = ({ tasks, markAsResolved, notify2 }) => {
   return (
     <div>
       <h2 className="text-xl font-bold mb-3">Task Status</h2>
@@ -12,8 +12,10 @@ const TaskStatus = ({ tasks, markAsResolved }) => {
             <br />
             <button
               className="bg-[#02A53B] text-white mt-3 p-2 rounded-lg font-semibold w-full"
-              onClick={() => markAsResolved(task.id)}
-            >
+              onClick={() => {
+                markAsResolved(task.id);
+                notify2();
+              }}>
               Complete
             </button>
           </div>
