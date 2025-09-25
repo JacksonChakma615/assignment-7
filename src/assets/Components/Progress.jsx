@@ -9,7 +9,7 @@ const Progress = () => {
           {/* background pattern */}
           <div
             className="absolute inset-0 bg-center bg-cover"
-            style={{ backgroundImage: `url(${vector})` }}
+            style={{ backgroundImage: `url(${'/public/image/vector1.png'})` }}
             aria-hidden="true"
           />
           {/* gradient overlay */}
@@ -26,7 +26,7 @@ const Progress = () => {
         <div className="relative rounded-2xl overflow-hidden min-h-[220px] flex items-center justify-center shadow-lg">
           <div
             className="absolute inset-0 bg-center bg-cover"
-            style={{ backgroundImage: `url(${vector})` }}
+            style={{ backgroundImage: `url(${'/public/image/vector1.png'})` }}
             aria-hidden="true"
           />
           <div className="absolute inset-0 bg-gradient-to-tr from-emerald-400/90 to-teal-600/90" />
