@@ -8,9 +8,9 @@ const Footer = () => {
           <h2 className="text-white font-bold text-lg mb-4">CS — Ticket System</h2>
           <p className="text-sm leading-6 w-[300px]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            industry. Lorem Ipsum has been in the industry's standard dummy text
+            ever since the 1500s, when an unknown printer tooks a galley of type
+            and scrambled it to make a type specimen books.
           </p>
         </div>
 
@@ -60,9 +60,7 @@ const Footer = () => {
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
         © 2025 CS — Ticket System. All rights reserved.
       </div>
-      <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
-        © 2025 CS — Ticket System. All rights reserved.
-      </div>
+     
     </footer>
   );
 };
